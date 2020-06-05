@@ -14,16 +14,12 @@ Disclaimer
 We adopt the pytorch implementation for Self-critical Sequence Training for Image Captioning [`self-critical.pytorch`](https://github.com/ruotianluo/self-critical.pytorch) as a baseline model for few-shot image captioner. We use the features provided in this repository. Please refer to these links for further README information.
 
 ## Requirements
-Python 2 or 3 ([coco-caption](https://github.com/ruotianluo/coco-caption) supports python 3)
 
-PyTorch 1.3 (along with torchvision)
-
-cider ([cider](https://github.com/ruotianluo/cider/tree/e9b736d038d39395fa2259e39342bb876f1cc877))
-
-coco-caption ([coco-caption](https://github.com/ruotianluo/coco-caption/tree/ea20010419a955fed9882f9dcc53f2dc1ac65092)) (**Remember to follow initialization steps in coco-caption/README.md**)
-
-yacs
-
+- Python 2 or 3 ([coco-caption](https://github.com/ruotianluo/coco-caption) supports python 3)
+- PyTorch 1.3 (along with torchvision)
+- cider ([cider](https://github.com/ruotianluo/cider/tree/e9b736d038d39395fa2259e39342bb876f1cc877))
+- coco-caption ([coco-caption](https://github.com/ruotianluo/coco-caption/tree/ea20010419a955fed9882f9dcc53f2dc1ac65092)) (**Remember to follow initialization steps in coco-caption/README.md**)
+- yacs
 I also provide the conda enviroment [sc_rtl.yml](https://github.com/chenxy99/SD-FSIC/blob/master/sc_rtl.yml), you can directly run
 ```bash
 $ conda env create -f environment.yml
