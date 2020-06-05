@@ -29,6 +29,15 @@ to create the same enviroment where I succesfully run my code.
 Datasets
 ------------------
 One can follow the instructions in [data/README.md](data/README.md) to create the corresponding data. More specifically, we download the preprocessed file or preextracted features from [link](https://drive.google.com/drive/folders/1eCdz62FAVCGogOuNhy87Nmlo5_I0sH2J).
+You need to download as least the following files, unzip them and put them in the `data` folder.
+- coco-train-idxs.p
+- coco-train-words.p
+- cocotalk_label.h5
+- cocotalk.json
+- dataset_coco.json
+- cocotalk_fc.zip
+- cocotalk_att.zip
+
 
 Download the extra nocaps [dataset](https://drive.google.com/file/d/1puVmZN_UbDYas9m2c1cbBx7m9SMvgfTG/view?usp=sharing) that is not provided by [`nocaps`](https://github.com/nocaps-org/updown-baseline) and unzip it. (Remenber to download other documents by the [instruction](https://nocaps.org/updown-baseline/setup_dependencies.html))
 
