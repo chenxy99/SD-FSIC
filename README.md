@@ -13,18 +13,26 @@ Disclaimer
 ------------------
 We adopt the pytorch implementation for Self-critical Sequence Training for Image Captioning [`self-critical.pytorch`](https://github.com/ruotianluo/self-critical.pytorch) as a baseline model for few-shot image captioner. We use the features provided in this repository. Please refer to these links for further README information.
 
-## Requirements
+Requirements
+------------------
 - Python 2 or 3 ([coco-caption](https://github.com/ruotianluo/coco-caption) supports python 3)
 - PyTorch 1.3 (along with torchvision)
 - cider ([cider](https://github.com/ruotianluo/cider/tree/e9b736d038d39395fa2259e39342bb876f1cc877)) (Download it in current folder `SD-FSIC/`)
 - coco-caption ([coco-caption](https://github.com/ruotianluo/coco-caption/tree/ea20010419a955fed9882f9dcc53f2dc1ac65092)) (**Remember to follow initialization steps in coco-caption/README.md**) (Download it in current folder `SD-FSIC/`)
 - yacs
-I also provide the conda enviroment [sc_rtl.yml](https://github.com/chenxy99/SD-FSIC/blob/master/sc_rtl.yml), you can directly run
+- I also provide the conda enviroment [sc_rtl.yml](https://github.com/chenxy99/SD-FSIC/blob/master/sc_rtl.yml), you can directly run
 ```bash
 $ conda env create -f environment.yml
 ```
+to create the same enviroment where I succesfully run my code.
 
+Datasets
+------------------
+One can follow the instructions in [data/README.md](data/README.md) to create the corresponding data. More specifically, we download the preprocessed file or preextracted features from [link](https://drive.google.com/drive/folders/1eCdz62FAVCGogOuNhy87Nmlo5_I0sH2J).
 
+Download the extra nocaps [dataset](https://drive.google.com/file/d/1puVmZN_UbDYas9m2c1cbBx7m9SMvgfTG/view?usp=sharing) that is not provided by [`nocaps`](https://github.com/nocaps-org/updown-baseline) and unzip it. (Remenber to download other documents by the [instruction](https://nocaps.org/updown-baseline/setup_dependencies.html))
+
+This extra human saliency data for `COCO` and `nocaps` dataset is extracted by [Saliency Attentive Model](https://arxiv.org/pdf/1611.09571.pdf) and the detection results for `COCO` dataset are extracted by the [open image detector](https://github.com/nocaps-org/image-feature-extractors).
 
 
 
