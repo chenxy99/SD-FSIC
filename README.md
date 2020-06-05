@@ -1,4 +1,18 @@
-# Self-critical Sequence Training for Image Captioning (+ misc.)
+# Self-Distillation for Few-Shot Image Captioning (SD-FSIC)
+
+This code implements the Self-Distillation for Few-Shot Image Captioning.
+
+Reference
+------------------
+If you use our code or data, please cite our paper:
+```text
+Anonymous submission for NeurIPS 2020, paper ID 696.
+```
+
+Disclaimer
+------------------
+We adopt the pytorch implementation for Self-critical Sequence Training for Image Captioning [`self-critical.pytorch`](https://github.com/ruotianluo/self-critical.pytorch) as a baseline model for few-shot image captioner. We use the features provided in this repository. Please refer to these links for further README information.
+
 
 This repository includes the unofficial implementation [Self-critical Sequence Training for Image Captioning](https://arxiv.org/abs/1612.00563) and [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/abs/1707.07998).
 
