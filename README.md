@@ -38,6 +38,11 @@ You need to download as least the following files, unzip them and put them in th
 - cocotalk_fc.zip
 - cocotalk_att.zip
 
+Train your own network on few-shot semi-supervised COCO dataset
+------------------
+
+
+
 
 Download the extra nocaps [dataset](https://drive.google.com/file/d/1puVmZN_UbDYas9m2c1cbBx7m9SMvgfTG/view?usp=sharing) that is not provided by [`nocaps`](https://github.com/nocaps-org/updown-baseline) and unzip it. (Remenber to download other documents by the [instruction](https://nocaps.org/updown-baseline/setup_dependencies.html))
 
