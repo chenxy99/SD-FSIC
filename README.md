@@ -40,6 +40,49 @@ You need to download as least the following files, unzip them and put them in th
 
 Train your own network on few-shot semi-supervised COCO dataset
 ------------------
+### Start training
+```bash
+$ python train.py --cfg configs/fc.yml --id sd-fsic
+```
+The train script will dump checkpoints into the folder specified by `--checkpoint_path` (default = `log_$id/`). You can set the corresponding hyper-parameters in `configs/fc.yml`.
+
+- `--paired_percentage` The percentage of the training set, where the images and sentences are paired.
+- `--language_pretrain_epoch` The number of epochs used to pretrain the model.
+- `--paired_train_epoch` The number of epochs used to train the model with image-caption pairs.
+- `--random_seed` The seed used to select the image-caption pairs.
+- `--alpha` The smoothing coefficient for Mean Teacher.
+- `--hyper_parameter_lambda_x` The hyper-parameter to balance the unsupervised items for total loss.
+- `--hyper_parameter_lambda_y` The hyper-parameter to balance the unsupervised items for total loss.
+- `--std_pseudo_visual_feature` The hyper-parameter for the standard deviation of pseudo visual feature.
+- `--number_of_models` The number of base models for model ensemble.
+- `--inner_iteration` The number of the total iteration of the inner optimization to generate pseudo latent feature.
+
+We also provide the corresponding results of the COCO test set in [`sd-fsic.json`](https://drive.google.com/open?id=1wgfJ8cVVxOmmWAA23an7l_X7Sq-ovpRV).
+
+The corresponding results are listed below
+<table>
+  <tr>
+    <th>BLEU-1</th><th>BLEU-2</th>
+    <th>BLEU-3</th><th>BLEU-4</th>
+    <th>METEOR</th><th>ROUGE_L</th><th>CIDEr</th><th>SPICE</th><th>WMD</th>
+  </tr>
+  <tr>
+    <td>64.5</td><td>45.9</td>
+    <td>32.1</td><td>22.5</td>
+    <td>20.0</td><td>46.7</td><td>62.4</td><td>12.7</td><td>14.7</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
