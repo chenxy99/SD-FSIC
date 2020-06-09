@@ -59,9 +59,9 @@ The train script will dump checkpoints into the folder specified by `--checkpoin
 
 Evaluate on Karpathy's test split
 ------------------
-We provide the corresponding results of the COCO test set in [`sd-fsic.json`](https://drive.google.com/open?id=1wgfJ8cVVxOmmWAA23an7l_X7Sq-ovpRV).
+We provide the corresponding results of the COCO test set in [`sd-fsic.json`](https://drive.google.com/file/d/1UG9QsPraJepTgC-fj9lsROefXmMqj9CT/view?usp=sharing).
 
-Furthermore, we also provide the pretrained model for the above results. You can download this pretrained model [`log_sd-fsic.zip`](https://drive.google.com/file/d/1mAFG8YOM7x3c7q1-LTwTjYjLToZ0E4I1/view?usp=sharing) and unzip it to current folder `SD-FSIC/`. Then you can run the following script to evaluate our model on Karpathy's test split.
+Furthermore, we also provide the pretrained model for the above results. You can download this pretrained model [`log_sd-fsic.zip`](https://drive.google.com/file/d/1aOQyj6SF2uJLUaKOco3wdgHRvYtGba1K/view?usp=sharing) and unzip it to current folder `SD-FSIC/`. Then you can run the following script to evaluate our model on Karpathy's test split.
 
 ```bash
 $ python multi_eval_ensemble.py \
