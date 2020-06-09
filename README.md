@@ -22,7 +22,7 @@ Requirements
 - yacs
 - I also provide the conda enviroment [sc_rtl.yml](https://github.com/chenxy99/SD-FSIC/blob/master/sc_rtl.yml), you can directly run
 ```bash
-$ conda env create -f environment.yml
+$ conda env create -f sc_rtl.yml
 ```
 to create the same enviroment where I succesfully run my code.
 
