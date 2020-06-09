@@ -70,7 +70,7 @@ $ python multi_eval_ensemble.py \
 --beam_size 5 \
 --language_eval 1 \
 --model log_sd-fsic/model-best.pth \
---infos_path log_sd-fsic/infos_sd-fsic-best2.pkl
+--infos_path log_sd-fsic/infos_sd-fsic-best.pkl
 ```
 
 The corresponding results are listed below
