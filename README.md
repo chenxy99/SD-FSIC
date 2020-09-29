@@ -6,7 +6,7 @@ Reference
 ------------------
 If you use our code or data, please cite our paper:
 ```text
-Anonymous submission for NeurIPS 2020, paper ID 696.
+Anonymous submission for WACV 2021, paper ID 971.
 ```
 
 Disclaimer
