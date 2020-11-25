@@ -7,10 +7,10 @@ Reference
 If you use our code or data, please cite our paper:
 ```text
 @InProceedings{xianyu:2021:sd-fsic,
-author = {Xianyu Chen and Ming Jiang and Qi Zhao},
-title = {Self-Distillation for Few-Shot Image Captioning},
-journal = {Winter Conference on Applications of Computer Vision (WACV)},
-year = {2021}
+    author = {Xianyu Chen and Ming Jiang and Qi Zhao},
+    title = {Self-Distillation for Few-Shot Image Captioning},
+    journal = {Winter Conference on Applications of Computer Vision (WACV)},
+    year = {2021}
 }
 ```
 
