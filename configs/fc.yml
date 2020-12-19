@@ -1,8 +1,8 @@
 caption_model: newfc
-input_json: ../data/cocotalk.json
-input_fc_dir: ../data/cocotalk_fc
-input_att_dir: ../data/cocotalk_att
-input_label_h5: ../data/cocotalk_label.h5
+input_json: ./data/cocotalk.json
+input_fc_dir: ./data/cocotalk_fc
+input_att_dir: ./data/cocotalk_att
+input_label_h5: ./data/cocotalk_label.h5
 learning_rate: 0.0025
 learning_rate_decay_start: 100
 scheduled_sampling_start: 150
@@ -23,7 +23,7 @@ random_seed: 0
 weight_decay: 0.0005
 alpha: 0.99
 label_smoothing: 0
-hyper_parameter_lambda_y: 0
+hyper_parameter_lambda_y: 1
 hyper_parameter_lambda_x: 0.1
 std_pseudo_visual_feature: 0.1
 number_of_models: 3
